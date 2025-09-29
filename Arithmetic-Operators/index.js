@@ -69,4 +69,15 @@ function math(a,b){
 }
 
 
-math(2,3)
+// math(2,3)
+
+// Question 4. Agent Binod 
+// You are required to take input a string agentName, and finally print the line
+//  "Hi my name is Agent insert agentName".
+// Example 1
+// Input
+// Binod
+// Output
+// Hi my name is Agent Binod
+let agentName = "binod";
+console.log(`Hi my name is Agent ${agentName}`)
