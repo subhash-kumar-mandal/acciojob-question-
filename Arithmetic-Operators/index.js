@@ -44,4 +44,29 @@ function fahreneit_find(c){
     return f.toFixed(6)  //fixed last 6 decimal places
 }
 
-console.log(fahreneit_find(32))
+// console.log(fahreneit_find(32))
+
+
+// Question 3. Basic Arithmetic Operations 
+// You are given two positive integers. You have to calculate the result of performing +,-,*,/,% 
+// operations on them.
+// Example 1
+// Input:
+// 8 3
+// Output:
+// 11
+// 5
+// 24
+// 2
+// 2
+
+function math(a,b){
+    console.log(a+b);
+    console.log(a-b);
+    console.log(a*b);
+    console.log(Math.floor(a/b));
+    console.log(a%b);
+}
+
+
+math(2,3)
