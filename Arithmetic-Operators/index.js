@@ -81,3 +81,16 @@ function math(a,b){
 // Hi my name is Agent Binod
 let agentName = "binod";
 console.log(`Hi my name is Agent ${agentName}`)
+
+
+
+
+
+// Question 5 . Temperature Conversion 
+// Given the temperature of a city in celsius(C), your task is to convert the temperature to
+//  Fahrenheit(F) and return it.
+// Formula : (C* (9/5)) + 32 = F
+
+let temperature = 25 ;
+console.log((temperature*(9/5)+32))
+
