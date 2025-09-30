@@ -88,3 +88,39 @@ let input =29 ;
   } else if(input>=30){
     console.log("more important")
   }
+
+// 6. Age Condition Check
+// Given an integer n. Your task is to write a program to use switch case as follows :
+// if the input number is 28, print i am young.
+// else print i am not young.
+ let n1 = 22;
+ if(n1==28){
+    console.log("i am young")
+   }else{
+    console.log("i am not young")
+   }
+
+// 7. Number of Days
+// Example 1
+// Input
+// 1
+// Output
+// 31
+  let months = {
+    1: 31,
+    2: 28,
+    3: 31,
+    4: 30,
+    5: 31,
+    6: 30,
+    7: 31,
+    8: 31,
+    9: 30,
+    10: 31,
+    11: 30,
+    12: 31
+
+}
+
+
+  console.log( months[1])
