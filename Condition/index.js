@@ -75,6 +75,16 @@ let x = 10 , y= 6
     }else{
       console.log("we are simple") 
     }
-  }
+  } 
 
-find(1,3)
+// find(1,3)
+
+// 5. Number Importance Classification
+// You are given a number N. Write a program using If Else such that if N is less than 30 then the output 
+// will be "less important" otherwise the output will be "more important".
+let input =29 ;
+ if(input<30){
+    console.log("less important")
+  } else if(input>=30){
+    console.log("more important")
+  }
