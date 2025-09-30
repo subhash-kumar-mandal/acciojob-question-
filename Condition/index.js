@@ -36,3 +36,25 @@ let x = 10 , y= 6
     }else if(x>0 && y<0){
       console.log("4")
     }
+
+// 3. Verify Cube
+// Take two positive integers from the user. Verify if (a+b)^3 = a^3 + b^3 + 3a^2b + 3ab^2.
+// Calculate the Left hand side (LHS) and the right hand side (RHS) of the equation. Print the (LHS) and the (RHS).
+// Print VERIFIED in uppercase if they are equal, otherwise print NOT VERIFIED.
+// Example 1
+// Input:
+// 4 5
+// Output:
+// 729
+// 729
+// VERIFIED
+     let a= 4 , b =5 ;
+     let lhs = (a+b)**3
+     let rhs = a**3 + b**3 +3*a**2*b +3*a*b**2
+     console.log(lhs);
+     console.log(rhs);
+     if(rhs===lhs){
+      console.log("VERIFIED")
+     }else{
+      console.log("NOT VERIFIED")
+     }
