@@ -58,3 +58,23 @@ let x = 10 , y= 6
      }else{
       console.log("NOT VERIFIED")
      }
+
+// // 4. Odd or Simple Integer Pair
+// You are given two integers a and b. You need to perform the following operations
+// If both integers are odd, print `we are odd`.
+// Else print `we are simple`.
+// Example 1
+// Input
+// 1 3
+// Output
+// we are odd
+
+ function find (a,b){
+    if(a%2 !==0 && b%2 !==0){
+      console.log("we are odd")
+    }else{
+      console.log("we are simple") 
+    }
+  }
+
+find(1,3)
