@@ -85,4 +85,38 @@ let ch = "@"
     } else if(2*(lager**2)> sum){
       console.log("3")
     }
+
+
+// 4. Equal Heights. 
+
+// You are given 4 integers:
+// h1: Gian's initial height
+// h2: Suneo's initial height
+// v1: The speed at which Gian's height increases (in meters per second)
+// v2: The speed at which Suneo's height increases (in meters per second)
+
+// Example 1
+// Input
+// 4 2 2 4
+// Output
+// true
   
+ 
+   let h1 =4;
+   let h2 =2;
+   let v1 =2;
+   let v2 =4;
+  let result = false;
+
+  if(v1 !== v2){
+    let t = (h2 - h1) / (v1 - v2);
+    if(t >= 0 && Number.isInteger(t)){
+      result = true;
+    }
+  } else { // v1 == v2
+    if(h1 === h2){
+      result = true;
+    }
+  }
+
+  console.log(result)
