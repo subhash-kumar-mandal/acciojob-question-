@@ -87,7 +87,7 @@ let ch = "@"
     }
 
 
-// 4. Equal Heights. 
+// 5. Equal Heights. 
 
 // You are given 4 integers:
 // h1: Gian's initial height
