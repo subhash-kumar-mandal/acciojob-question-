@@ -57,4 +57,32 @@ let ch = "@"
   }else{
     console.log("-1")
   }
+
+
+// 4. Which angled triangle 
+// Given the 3 sides of a triangle, find out whether it is acute-angled, right-angled, or obtuse-angled.
+// You need to output 1 for acute, 2 for right-angled, and 3 for an obtuse-angled triangle. You can assume 
+// that the input values always form a triangle and are valid integers.
+
+  let a =3;
+  let b=4;
+  let c=5;
+
+
+  let lager = 0 ;
+     let sum = a**2 +b**2+c**2 ;
+     if(a>=b && a>=c){
+      lager = a;
+     }else if(b>=a && b>=c){
+      lager = b
+     }else{
+      lager = c
+     }
+    if(2*(lager**2)<sum){
+      console.log("1")
+    }else if(2*(lager**2) == sum){
+      console.log("2")
+    } else if(2*(lager**2)> sum){
+      console.log("3")
+    }
   
