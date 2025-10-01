@@ -42,4 +42,19 @@ const isLeapYear = (year) => {
 
   console.log(isLeapYear(1900))
 
+
+
+//   3.Character Case Identifier .
+// You are required to take input of a character from the user. The task is to print the following
+// 1, if the character is a uppercase alphabet(A to Z)
+// 0, if the character is a lowercase alphabet(a to z)
+// -1, if the character is not an alphabet
+let ch = "@"
+ if(ch.charCodeAt(0)>=97 && ch.charCodeAt(0)<=122){
+    console.log("0")
+  } else if(ch.charCodeAt(0)>=65 && ch.charCodeAt(0)<=90){
+    console.log("1")
+  }else{
+    console.log("-1")
+  }
   
